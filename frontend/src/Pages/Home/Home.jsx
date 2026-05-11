@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Your App Name
+            Nikhil kumar Panigrahi
           </Title>
 
           <Text
