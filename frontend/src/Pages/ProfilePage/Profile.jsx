@@ -53,7 +53,7 @@ const Profile = () => {
                             p="md"
                             style={{ borderRadius: "10px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}
                             >
-                            <Avatar src={user.Avatar} alt="it's me" />
+                            <center><Avatar src={user.Avatar} alt="it's me" /> </center>
                             <Text>Name: {user.name}</Text>
                             <Text>Email: {user.email}</Text>
                             <Text>{new Date(user.createdAt).toLocaleDateString()}</Text>         
